@@ -1,5 +1,4 @@
 require 'sinatra'
-require 'sinatra/flash'
 
 def headless_test 
 	"#{File.dirname(__FILE__)}/lib/google_headless.rb"
